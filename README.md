@@ -1,10 +1,5 @@
 ## GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors
-<div align="center">
-
- <a href='https://arxiv.org/pdf/2503.05638'><img src='https://img.shields.io/badge/arXiv-2503.05638-b31b1b.svg'></a>
- &nbsp;
-
-</div>
+## [Arxiv](https://www.arxiv.org/pdf/2508.09667)
 
 ## Introduction
 
@@ -23,11 +18,11 @@ Motivation: Recent approaches have sought to leverage generative priors to compl
 ## Some Videos
 <table style="width:100%; text-align:center;">
   <tr>
-    <td><b>Artifact</b></td>
-    <td><b>Difix3D+</b></td>
-    <td><b>GenFusion</b></td>
-    <td><b>GSFixer (Ours)</b></td>
-    <td><b>GT</b></td>
+  <td style="text-align:center;"><b>Artifact</b></td>
+  <td style="text-align:center;"><b>Difix3D+</b></td>
+  <td style="text-align:center;"><b>GenFusion</b></td>
+  <td style="text-align:center;"><b>GSFixer (Ours)</b></td>
+  <td style="text-align:center;"><b>GT</b></td>
   </tr>
   <tr>
     <td><img src="assets/Artifact1.gif" width="200" height="100"></td>
@@ -53,8 +48,18 @@ Motivation: Recent approaches have sought to leverage generative priors to compl
 </table>
 
 
-
-
 ## Related Works
 Including but not limited to: [CogVideoX](https://github.com/zai-org/CogVideo), [VGGT](https://github.com/facebookresearch/vggt), [DINOv2](https://github.com/facebookresearch/dinov2), [Difix3D+](https://github.com/nv-tlabs/Difix3D), [GenFusion](https://github.com/Inception3D/GenFusion), [3DGS-Enhancer](https://github.com/xiliu8006/3DGS-Enhancer), [ReconX](https://github.com/liuff19/ReconX), [ViewCrafter](https://github.com/Drexubery/ViewCrafter), [TrajectoryCrafter](https://github.com/TrajectoryCrafter/TrajectoryCrafter), [ReCamMaster](https://github.com/KwaiVGI/ReCamMaster)...
+
+## Citation
+
+If you find the work useful, please consider citing:
+```
+@article{yin2025gsfixer,
+  title={GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors},
+  author={Yin, Xingyilang and Zhang, Qi and Chang, Jiahao and Feng, Ying and Fan, Qingnan and Yang, Xi and Pun, Chi-Man and Zhang, Huaqi and Cun, Xiaodong},
+  journal={arXiv preprint arXiv:2508.09667},
+  year={2025}
+}
+```
 
