@@ -3,7 +3,7 @@
 
 <table class="center">
     <tr style="font-weight: bolder;">
-        <td>&emsp;&emsp;3DGS Artifact&emsp;&emsp;&emsp;&emsp;&emsp; Difix3D+&emsp;&emsp;&emsp;&emsp;&emsp; GenFusion&emsp;&emsp;&emsp;&emsp;&emsp;GSFixer (Ours)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; GT</td>
+        <td>&emsp;&emsp;3DGS Artifact&emsp;&emsp;&emsp;&emsp;&emsp; Difix3D+&emsp;&emsp;&emsp;&emsp;&emsp; GenFusion&emsp;&emsp;&emsp;&emsp;&emsp;GSFixer (Ours)&emsp;&emsp;&emsp;&emsp;&emsp; GT</td>
     </tr>
   <tr>
   <td>
