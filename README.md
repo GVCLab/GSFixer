@@ -3,7 +3,7 @@
 
 <table class="center">
     <tr style="font-weight: bolder;">
-        <td>&emsp;&emsp;3DGS Artifact&emsp;&emsp;&emsp;&emsp; Difix3D+&emsp;&emsp;&emsp;&emsp;&emsp; GenFusion&emsp;&emsp;&emsp;&emsp;GSFixer (Ours)&emsp;&emsp;&emsp;&emsp;&emsp; GT</td>
+        <td>&emsp;&emsp;3DGS Artifact&emsp;&emsp;&emsp;&emsp;&emsp; Difix3D+&emsp;&emsp;&emsp;&emsp;&emsp; GenFusion&emsp;&emsp;&emsp;&emsp;&emsp;GSFixer (Ours)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; GT</td>
     </tr>
   <tr>
   <td>
@@ -27,7 +27,7 @@
 
 ## Introduction
 
-We are currently cleaning up the code and awaiting company approval. The code, checkpoints, and data will be released as soon as possible.
+We are currently cleaning up the code and awaiting company approval. The code, checkpoints, and data will be released as soon as possible (hope before 2025/9/30).
 
 TL;DR: using 2D semantic (DINOv2) and 3D geometric (VGGT) features of reference views (sparse input views) to guide the video diffusion (CogVideoX) process, enabling semantic and 3D consistency in restoring artifact novel views.
 
@@ -37,7 +37,7 @@ Motivation: Recent approaches have sought to leverage generative priors to compl
 ![Tesear](assets/tesear.png)
 
 ## Pipeline 
-![Pipeline](assets/gsfixer_framework.png)
+![Pipeline](assets/gsfixer_framework4.png)
 
 
 ## Related Works
