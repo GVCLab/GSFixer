@@ -1,5 +1,5 @@
-## GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors
-## [Arxiv](https://www.arxiv.org/pdf/2508.09667)
+### GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors
+[ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) 
 
 <table class="center">
     <tr style="font-weight: bolder;">
