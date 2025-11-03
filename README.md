@@ -56,6 +56,8 @@ Download [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset from their p
 
 Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) dataset using their download script.
 
+Download [DL3DV-10K](https://github.com/DL3DV-10K/Dataset?tab=readme-ov-file#dataset-download) using their download script.
+
 Download the [DL3DV-Res](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) dataset using HuggingFace.
 ```bash
 python download/download_data_hf.py
