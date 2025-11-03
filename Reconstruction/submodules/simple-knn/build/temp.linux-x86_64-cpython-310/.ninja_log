@@ -1,0 +1,4 @@
+# ninja log v7
+4	15366	1761913888656232963	/public_hw/home/cit_liyunzhu/gsfixer_vivo/Reconstruction/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/simple_knn.o	8230647e889c3c89
+3	21097	1761913888654675850	/public_hw/home/cit_liyunzhu/gsfixer_vivo/Reconstruction/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/ext.o	98ce86c2eaa82efa
+6	48186	1761913888657684066	/public_hw/home/cit_liyunzhu/gsfixer_vivo/Reconstruction/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/spatial.o	a3aff4c0c57f6d48

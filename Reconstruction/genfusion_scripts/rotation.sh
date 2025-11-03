@@ -1,0 +1,31 @@
+#! /bin/bash
+
+CUDA_VISIBLE_DEVICES=1 python train.py \
+    --data_dir [data_dir] \
+    -m output_ours/df29 \
+    --test_iterations 7_000 \
+    --diffusion_ckpt ./diffusion_ckpt/epoch=59-step=34000.ckpt \
+    --diffusion_config ./generation_infer.yaml \
+    --num_frames 16 \
+    --outpaint_type rotation \
+    --add_indices 7 15 \
+    --depth_loss \
+    --iterations 26000 \
+    --diffusion_resize_width 960 \
+    --diffusion_resize_height 512 \
+    --diffusion_crop_width 960 \
+    --diffusion_crop_height 512 \
+    --port 6691 \
+    --densify_from_iter 500 \
+    --densify_until_iter 12000 \
+    --diffusion_until 30000 \
+    --start_diffusion_iter 5000 \
+    --diffusion_every 4000 \
+    --opacity_reset_interval 15000 \
+    --repair \
+    --path_scale 0.3 \
+    --rotation_angle 90 \
+    --position_z_offset 0.5 \
+    --distance -0.2 \
+    --unconditional_guidance_scale 2.2 \
+    --start_dist_iter 3000
