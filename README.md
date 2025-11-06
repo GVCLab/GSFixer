@@ -43,6 +43,8 @@ conda create -n gsfixer python=3.10
 conda activate gsfixer
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
+pip install Reconstruction/submodules/simple-knn
+pip install Reconstruction/submodules/diff-gaussian-rasterization
 ```
 
 ### 3. Download pretrained models
@@ -54,7 +56,7 @@ sh download/download_hf.sh
 ### 4. Download datasets
 Download [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset from their project page.
 
-Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) datasets using their download script.
+Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) dataset using their download script.
 
 Download the [DL3DV-Res](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) dataset using HuggingFace:
 ```bash
@@ -83,7 +85,7 @@ python inference_gs_restoration_demo.py \
 Run [evaluate.sh](./Restoration/examples/gsfixer/evaluate.sh). Please refer to the args to set up parameters.
 ```bash
 cd Restoration
-bash examples/cogvideo/evaluate.sh
+bash examples/gsfixer/evaluate.sh
 ```
 
 ### 3. Generative 3D Reconstruction
