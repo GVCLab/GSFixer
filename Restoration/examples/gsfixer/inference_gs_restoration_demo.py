@@ -61,7 +61,6 @@ for project_root in project_roots:
 
 from transformers import T5EncoderModel, T5Tokenizer, AutoModel
 from transformers.utils import ContextManagers
-import datasets
 from diffusers import (
     AutoencoderKLCogVideoX,
     CogVideoXDPMScheduler,

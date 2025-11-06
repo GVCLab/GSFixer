@@ -82,7 +82,7 @@ python inference_gs_restoration_demo.py \
 ```
 
 ### 2. Generative Novel View Restoration
-Run [evaluate.sh](./Restoration/examples/gsfixer/evaluate.sh). Please refer to the args to set up parameters.
+Run [evaluate.sh](./Restoration/examples/gsfixer/evaluate.sh) using the following script. Please refer to the args to set up parameters.
 ```bash
 cd Restoration
 bash examples/gsfixer/evaluate.sh
