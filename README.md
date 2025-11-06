@@ -54,9 +54,9 @@ sh download/download_hf.sh
 ### 4. Download datasets
 Download [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset from their project page.
 
-Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) dataset using their download script.
+Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) datasets using their download script.
 
-Download the [DL3DV-Res](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) dataset using HuggingFace.
+Download the [DL3DV-Res](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) dataset using HuggingFace:
 ```bash
 python download/download_data_hf.py
 ```
@@ -65,18 +65,29 @@ python download/download_data_hf.py
 ### 1. Inference Restoration Demo
 ```bash
 cd Restoration
-python inference_demo
+python inference_gs_restoration_demo.py \
+--model_name PATH-to-CogVideoX-5b-I2V \
+--transformer_path PATH-to-GSFixer \
+--dinov2_ckpt PATH-to-dinov2-with-registers-large \
+--vggt_ckpt PATH-to-vggt-model.pt \
+--blip_path PATH-to-blip2-opt-2.7b \
+--base_folder PATH-to-DL3DV_Res_benchmark \
+--ref_folders PATH-to-DL3DV_benchmark \
+--num_views 3 \
+--images_root ./demo/032dee9fb0a8bc1b90871dc5fe950080d0bcd3caf166447f44e60ca50ac04ec7 \
+--outpath ./output_gsfixer_inference_results \
+--scene_name ./examples/gsfixer/DL3DV-Res_scene_names.txt
 ```
 
 ### 2. Generative Novel View Restoration
-Run . Please refer to the args to set up parameters.
+Run [evaluate.sh](./Restoration/examples/gsfixer/evaluate.sh). Please refer to the args to set up parameters.
 ```bash
 cd Restoration
 bash examples/cogvideo/evaluate.sh
 ```
 
 ### 3. Generative 3D Reconstruction
-Run [train.py](./train.py) using the following script. Please refer to the args to set up parameters.
+Run [train.py](./Reconstruction/train.py) using the following script. Please refer to the args to set up parameters.
 ```bash
 cd Reconstruction
 # for per-scene results
