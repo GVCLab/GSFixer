@@ -1,9 +1,14 @@
-### GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors
-[ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) | [Model (GSFixer_ckpt)](https://huggingface.co/flow666/GSFixer/tree/main) | [Bench (DL3DV-Res)](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main)
+## ✨GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors✨
 
-🤗 If you find GSFixer useful, **please help ⭐ this repo**, which is important to Open-Source projects. Thanks!
+#### [Xingyilang Yin*](https://flow0314.github.io/)<sup>1,2,3</sup>, [Qi Zhang*](https://qzhang-cv.github.io/)<sup>2</sup>, [Jiahao Chang](https://github.com/Jiahao620)<sup>4</sup>, [Ying Feng](https://scholar.google.com/citations?user=PhkrqioAAAAJ&hl=zh-CN)<sup>2</sup>, [Qingnan Fan](https://fqnchina.github.io/)<sup>2</sup>, [Xi Yang](https://scholar.google.com/citations?user=W5c-LSYAAAAJ&hl=zh-CN)<sup>5</sup>, [Chi-Man Pun](https://cmpun.github.io/)<sup>1,📫</sup>, [Huaqi Zhang]()<sup>2,</sup>, [Xiaodong Cun](https://vinthony.github.io/academic/)<sup>3,📫</sup>
 
-TL;DR: using 3D geometric (VGGT) and 2D semantic (DINOv2) features of reference views (sparse input views) to guide the video diffusion process, enabling consistency in restoring artifact novel views. 
+[ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) | [Model](https://huggingface.co/flow666/GSFixer/tree/main) | [Bench](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) | ICML 2026
+
+###### <sup>1</sup> University of Macau, <sup>2</sup> VIVO, <sup>3</sup> GVC Lab, Great Bay University, <sup>4</sup> CUHKSZ, <sup>5</sup> Xidian University
+
+🤗 If you find GSFixer useful, **please help ⭐ this repo**, which is important to Open-Source projects. Thanks🙏!
+
+>TL;DR: using 3D geometric (VGGT) and 2D semantic (DINOv2) features of reference views (sparse input views) to guide the video diffusion process, enabling consistency in restoring artifact novel views. 
 
 Below shows some examples:
 
@@ -53,7 +58,7 @@ Download the pretrained models (e.g., GSFixer, CogVideoX-I2V, VGGT...) using Hug
 sh download/download_hf.sh 
 ```
 
-### 4. Download datasets
+### 4. Download the datasets
 Download [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset from their project page.
 
 Download [DL3DV-Benchmark](https://huggingface.co/datasets/DL3DV/DL3DV-Benchmark) dataset using their download script.
