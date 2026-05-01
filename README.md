@@ -1,12 +1,14 @@
 ## ✨GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors✨
 
-#### [Xingyilang Yin*](https://flow0314.github.io/)<sup>1,2,3</sup>, [Qi Zhang*](https://qzhang-cv.github.io/)<sup>2</sup>, [Jiahao Chang](https://github.com/Jiahao620)<sup>4</sup>, [Ying Feng](https://scholar.google.com/citations?user=PhkrqioAAAAJ&hl=zh-CN)<sup>2</sup>, [Qingnan Fan](https://fqnchina.github.io/)<sup>2</sup>, [Xi Yang](https://scholar.google.com/citations?user=W5c-LSYAAAAJ&hl=zh-CN)<sup>5</sup>, [Chi-Man Pun](https://cmpun.github.io/)<sup>1,📫</sup>, [Huaqi Zhang]()<sup>2,</sup>, [Xiaodong Cun](https://vinthony.github.io/academic/)<sup>3,📫</sup>
+#### [Xingyilang Yin*](https://flow0314.github.io/)<sup>1,2,3</sup>, [Qi Zhang*](https://qzhang-cv.github.io/)<sup>2</sup>, [Jiahao Chang](https://github.com/Jiahao620)<sup>4</sup>, [Ying Feng](https://scholar.google.com/citations?user=PhkrqioAAAAJ&hl=zh-CN)<sup>2</sup>,
 
-[ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) | [Model](https://huggingface.co/flow666/GSFixer/tree/main) | [Bench](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) | ICML 2026
+#### [Qingnan Fan](https://fqnchina.github.io/)<sup>2</sup>, [Xi Yang](https://scholar.google.com/citations?user=W5c-LSYAAAAJ&hl=zh-CN)<sup>5</sup>, [Chi-Man Pun](https://cmpun.github.io/)<sup>1,📫</sup>, [Huaqi Zhang]()<sup>2,</sup>, [Xiaodong Cun](https://vinthony.github.io/academic/)<sup>3,📫</sup>
+
+[ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) | [Model](https://huggingface.co/flow666/GSFixer/tree/main) | [Bench](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) | International Conference on Machine Learning (ICML) 2026
 
 ###### <sup>1</sup> University of Macau, <sup>2</sup> VIVO, <sup>3</sup> GVC Lab, Great Bay University, <sup>4</sup> CUHKSZ, <sup>5</sup> Xidian University
 
-🤗 If you find GSFixer useful, **please help ⭐ this repo**, which is important to Open-Source projects. Thanks🙏!
+🤗 If you find GSFixer useful, **please help ⭐ this repo**, which is important to Open-Source projects. Thanks 🙏!
 
 >TL;DR: using 3D geometric (VGGT) and 2D semantic (DINOv2) features of reference views (sparse input views) to guide the video diffusion process, enabling consistency in restoring artifact novel views. 
 
