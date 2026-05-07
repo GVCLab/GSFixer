@@ -1,4 +1,4 @@
-## ✨GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors✨
+### GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors
 
 #### [Xingyilang Yin*](https://flow0314.github.io/)<sup>1,2,3</sup>, [Qi Zhang*](https://qzhang-cv.github.io/)<sup>2</sup>, [Jiahao Chang](https://github.com/Jiahao620)<sup>4</sup>, [Ying Feng](https://scholar.google.com/citations?user=PhkrqioAAAAJ&hl=zh-CN)<sup>2</sup>,
 
@@ -6,7 +6,7 @@
 
 [ArXiv](https://www.arxiv.org/abs/2508.09667) | [PDF](https://www.arxiv.org/pdf/2508.09667) | [Model](https://huggingface.co/flow666/GSFixer/tree/main) | [Bench](https://huggingface.co/datasets/flow666/DL3DV-Res_Benchmark/tree/main) | International Conference on Machine Learning (ICML) 2026
 
-###### <sup>1</sup> University of Macau, <sup>2</sup> VIVO, <sup>3</sup> GVC Lab, Great Bay University, <sup>4</sup> CUHKSZ, <sup>5</sup> Xidian University
+###### <sup>1</sup> University of Macau, <sup>2</sup> vivo BlueImage Lab, <sup>3</sup> GVC Lab, Great Bay University, <sup>4</sup> CUHKSZ, <sup>5</sup> Xidian University
 
 🤗 If you find GSFixer useful, **please help ⭐ this repo**, which is important to Open-Source projects. Thanks 🙏!
 
@@ -74,18 +74,14 @@ python download/download_data_hf.py
 ### 1. Inference Restoration Demo
 ```bash
 cd Restoration
-python inference_gs_restoration_demo.py \
+python examples/gsfixer/inference_gs_restoration_demo.py \
 --model_name PATH-to-CogVideoX-5b-I2V \
 --transformer_path PATH-to-GSFixer \
 --dinov2_ckpt PATH-to-dinov2-with-registers-large \
 --vggt_ckpt PATH-to-vggt-model.pt \
 --blip_path PATH-to-blip2-opt-2.7b \
---base_folder PATH-to-DL3DV_Res_benchmark \
---ref_folders PATH-to-DL3DV_benchmark \
---num_views 3 \
 --images_root ./demo/032dee9fb0a8bc1b90871dc5fe950080d0bcd3caf166447f44e60ca50ac04ec7 \
 --outpath ./output_gsfixer_inference_results \
---scene_name ./examples/gsfixer/DL3DV-Res_scene_names.txt
 ```
 
 ### 2. Generative Novel View Restoration
